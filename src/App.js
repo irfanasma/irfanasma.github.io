@@ -53,7 +53,7 @@ function App() {
                                     color="#183150"
                                     style={{
                                         webkitTextStroke: "0",
-                                        top: 60,
+                                        top: 50,
                                         right: -80,
                                         fontSize: 40,
                                     }}

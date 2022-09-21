@@ -16,8 +16,9 @@ export default function Hero() {
                 <div className="innerContainer">
                     <p className="b16 scrollText">Scroll Down</p>
                     <h1>
-                        <Correction text="Im" color="#183150" />
-                        Perfect <br /> Human.
+                        Asma <br /> Irfan.
+                        {/* <Correction text="Im" color="#183150" />
+                        Perfect <br /> Human. */}
                     </h1>
                 </div>
 
