@@ -33,7 +33,32 @@ function App() {
                 <section id="hello" className="grid2">
                     <div className="heading">
                         <h2 className="outlinedB">
-                            Hello, <br /> stranger.
+                            Hello, <br />{" "}
+                            {matches ? (
+                                <Correction
+                                    text="stranger."
+                                    correct="or a soon to be friend?"
+                                    color="white"
+                                    style={{
+                                        webkitTextStroke: "0",
+                                        top: 94,
+                                        right: -80,
+                                        fontSize: 54,
+                                    }}
+                                />
+                            ) : (
+                                <Correction
+                                    text="stranger."
+                                    correct="or a soon to be friend?"
+                                    color="#183150"
+                                    style={{
+                                        webkitTextStroke: "0",
+                                        top: 60,
+                                        right: -80,
+                                        fontSize: 40,
+                                    }}
+                                />
+                            )}
                         </h2>
                     </div>
                     <div className="subContent">
@@ -78,7 +103,7 @@ function App() {
                                 correct={"staunch"}
                                 style={{ right: -40 }}
                             />
-                            believer
+                            believer{" "}
                             {matches ? (
                                 <Correction
                                     text="in"
@@ -123,7 +148,7 @@ function App() {
                     </div>
                     <div className="subContent">
                         <p className="b28">
-                            Over the years, I have gained
+                            Over the years, I have gained{" "}
                             {matches ? (
                                 <Correction
                                     text={"proficiency"}
